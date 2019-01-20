@@ -10,17 +10,11 @@
     <description>
         A very simple single or two player Tic-Tac-Toe game.
     </description>
-    <author email="bremy23@gmail.com" href="http://phonegap.com">
+    <author email="bremy23@gmail.com" href="bremy23@gmail.com">
         Simply Simple Media
     </author>
     <content src="index.html" />
-    <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
+    <gap:plugin name="phonegap-admob" source="npm" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
 </widget>
