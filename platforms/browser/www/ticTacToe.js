@@ -436,3 +436,5 @@ function resetGame() {
     gameOver = false;
     turnCount = 1;
 }
+
+//Ads

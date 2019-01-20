@@ -9,6 +9,7 @@
     <!-- Bootstrap and personal CSS -->
     <link rel="stylesheet" href="lib/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 </head>
 
@@ -51,5 +52,30 @@
     <script src="lib/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="ticTacToe.js"></script>
 </body>
+<script>
+    var admobid = {};
+    if (/(android)/i.test(navigator.userAgent)) {
+        admobid = { // for Android
+            banner: 'ca-app-pub-8206035518256730~7781855122'
+        };
+    } else {
+        admobid = { // for Windows Phone
+            banner: 'ca-app-pub-8206035518256730~7781855122'
+        };
+    }
+
+    function initApp() {
+        if (AdMob) {
+            AdMob.createBanner({
+                adId: admobid.banner,
+                position: AdMob.AD_POSITION.BOTTOM_CENTER,
+                autoShow: true
+            });
+        }
+    }
+
+    document.addEventListener('deviceready', initApp, false);
+
+</script>
 
 </html>
