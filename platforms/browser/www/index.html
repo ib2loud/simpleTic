@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap and personal CSS -->
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+    <div class="container vertical-center">
+        <div id="gameBoard" class="container">
+            <div class="container text-center">
+                <h1 id="scoreBoard" class="mb-3">Your Turn</h1>
+                <table class="container align-items-center">
+                    <tr id="topRow">
+                        <td id="ticOne"></td>
+                        <td id="ticTwo" class="border-left border-right border-dark"></td>
+                        <td id="ticThree"></td>
+                    </tr>
+                    <tr id="middleRow">
+                        <td id="ticFour" class="border-top border-bottom border-dark"></td>
+                        <td id="ticFive" class="border border-dark"></td>
+                        <td id="ticSix" class="border-top border-bottom border-dark"></td>
+                    </tr>
+                    <tr id="bottomRow">
+                        <td id="ticSeven"></td>
+                        <td id="ticEight" class="border-left border-right border-dark"></td>
+                        <td id="ticNine"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="text-center">
+                <img id="resetButton" src="images/refresh.png">
+                <div id="players" class="text-center mt-2">
+                    <button id="playerOne" class="btn btn-sm border-dark">One Player</button>
+                    <button id="playerTwo" class="ml-3 btn btn-sm">Two Players</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="ticTacToe.js"></script>
+</body>
+
+</html>

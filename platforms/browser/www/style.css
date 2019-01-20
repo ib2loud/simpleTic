@@ -1,0 +1,68 @@
+@font-face {
+    font-family: SeymourOne;
+    src: url("fonts/SeymourOne.ttf");
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #969696;
+    font-family: "SeymourOne", sans-serif;
+    font-size: 120%;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+}
+
+table {
+    height: 60vh;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    height: 33%;
+    font-size: 4rem;
+    padding: 0;
+}
+
+.glow {
+    background-color: #707070;
+}
+
+img {
+    width: 30px;
+}
+
+tr {
+    width: 33%;
+    padding: 0;
+}
+
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.winner {
+    background-color: #5e5e5e;
+    color: #f1f1f1;
+}
+
+button {
+    background: none;
+    color: black;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}

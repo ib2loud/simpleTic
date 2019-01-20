@@ -1,0 +1,73 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "toe.tac.simpletic"
+        }
+    }
+}
